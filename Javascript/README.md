@@ -21,4 +21,12 @@
  - **Arguments:** values given to functions
  - When a function produces a value, it is said to **return** that value
  - **Conditional Execution:** when the program takes the proper branch based on the situation at hand (**if** keyword)
- - 
+ - **counter = counter + 1** - easier format: **counter += 1** means it is counting upward
+ - **counter = counter - 1** - easier format: **counter -= 1** means it is counting downward
+ - **Writing a binding name with several words in it:**
+ - fuzzylittleturtle
+ - fuzzy_little_turtle
+ - FuzzyLittleTurtle
+ - fuzzyLittleTurtle - most commonly used
+ - **Conditional:** if, else, and switch statements
+ - **Looping:** while, do and for statments
