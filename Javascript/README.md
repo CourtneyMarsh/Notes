@@ -30,3 +30,15 @@
  - fuzzyLittleTurtle - most commonly used
  - **Conditional:** if, else, and switch statements
  - **Looping:** while, do and for statments
+
+## Functions
+
+ - a function definition is a regular binding where the value of the binding is a function
+ - **Scope:** part of the program in which the binding is visible
+ - **Global:** bindings defined outside of any function or block
+ - **Call Stack:** the place where the computer stores context
+ - **Closure:** being able to reference a specific instance of a local bindng in an enclosing scope
+ - **Recursive function:** a function that calls itself
+ - **Pure Function:** is a specific kind of value-producing function that not only has side effects but also doesn't rely on side effects from other code - example: it doesn't read global bindings whose value might change
+
+## Data Structures: Objects and Arrays
