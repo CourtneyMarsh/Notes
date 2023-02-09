@@ -42,3 +42,10 @@
  - **Pure Function:** is a specific kind of value-producing function that not only has side effects but also doesn't rely on side effects from other code - example: it doesn't read global bindings whose value might change
 
 ## Data Structures: Objects and Arrays
+
+ - **Array:** stores a sequence of values
+ - let listOfNumbers =[2, 3, 5, 7, 11];
+ - console.log(listOfNumbers[2]);
+ - 5
+ - The first index of an array is zero
+ - Two main ways to access **properties** in JS are with a dot and with square brackets: value.x or value[x] - access a property on value, but not necessarily the same property
