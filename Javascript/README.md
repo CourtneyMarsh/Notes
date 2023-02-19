@@ -49,3 +49,31 @@
  - 5
  - The first index of an array is zero
  - Two main ways to access **properties** in JS are with a dot and with square brackets: value.x or value[x] - access a property on value, but not necessarily the same property
+ - mystring.length - gets the length of a string
+ - Math.max - gets the maximum function
+ - **Methods:** properties that contain functions - ex. .toUpperCase
+ - .push adds values to the end of an array
+ - .pop removes values the last value in an array
+ - **Stack:** is a data structure that allows you to push values into it and pop them out again in the opposite order so that the thing that was 
+ added last is removed first
+ - Values of the type **object** are arbitrary collections of properties
+ - **in** binary operator - when applied to a string and an object, tells you whether that object has a property within that name 
+ - example of **in** console.log("left" in anObject)
+ - Object.keys - finds out what properties an object has - it will return an array of strings
+ - == operator compares objects by identity
+ - **Correlation:** is a measure of dependence between statistical variables
+ - **includes**: method that checks whether a given value exists in the array
+ - **Classic JS Array Loops:**
+ - for (let i = 0; i < JOURNAL.length; i++) {
+ - let entry = JOURNAL[i];
+ - }
+ - **Modern JS Array Loops:**
+ - for (let entry of JOURNAL) {
+ - console.log(`${entry.events.length} events. `);
+ - }
+ - **Rest Parameter:** is bound to an array containing all further arguments - ex. function max(...numbers) the triple dot is the bind
+ - **Serialize:** convert data into a flat description
+ - **JSON:** popular sterilization format (pronounced "J Sawn") stands for JavaScript Object Notation.  It is widely used as a data storage and communication format on the web, even in languages other than JavaScript
+ - All property names have to be surrounded by double quotes and only simple data expressions are allowed - no function calls, bindings, or anything that involves actual computation.  Comments are not allowed in JSON
+ - **JSON.stringify** takes a JS value and returns a JSON-encoded string
+ - **JSON.parse** takes such a string and converts it to the value it encodes
