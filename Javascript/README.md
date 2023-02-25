@@ -1,4 +1,4 @@
-# Javascript
+# Eloquent Javascript Book
 
 ## Values, Types and Operators
 
@@ -77,3 +77,15 @@
  - All property names have to be surrounded by double quotes and only simple data expressions are allowed - no function calls, bindings, or anything that involves actual computation.  Comments are not allowed in JSON
  - **JSON.stringify** takes a JS value and returns a JSON-encoded string
  - **JSON.parse** takes such a string and converts it to the value it encodes
+
+
+## Higher-Order Functions
+
+- **Abstractions** hide details and give us the ability to talk about problems at a higher level
+- **Higher-Order Functions:** functions that operate on other functions, either by taking them as arguments or by returning them
+- **forEach** is used to loop over the elements in an array
+- **filter** method returns a new array containing only the elements that pass the predicate function
+- **map** transforms an array by putting each element through a function
+- **reduce** to combine all the elements in an array into a single value
+- **some** method tests whether any element matches a  given predicate function
+- **findIndex** find the position of the first element that matches a predicate 
